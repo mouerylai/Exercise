@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chibi Cat Baseball</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell" aria-label="Chibi Cat Baseball game">
+      <canvas id="gameCanvas" width="1280" height="720"></canvas>
+      <button id="muteButton" class="mute-button" type="button" aria-pressed="false">Sound On</button>
+      <div id="overlay" class="overlay">
+        <div class="panel">
+          <h1 id="overlayTitle">Chibi Cat Baseball</h1>
+          <p id="overlayText">Time your swing and send the ball bouncing across the field.</p>
+          <button id="primaryButton" type="button">Start Game</button>
+        </div>
+      </div>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
